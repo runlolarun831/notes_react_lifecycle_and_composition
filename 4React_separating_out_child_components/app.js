@@ -1,4 +1,6 @@
-// notes 4React_separating_out_child_components
+/* notes 4React_separating_out_child_components
+-breaking up main component into child components and easier to maintain
+*/
 const { Component } = React;
 const { render } = ReactDOM;
 

@@ -1,4 +1,6 @@
-// notes 2React_prop_setting_up_the_state
+/* notes 2React_prop_setting_up_the_state
+When using state in a component, we can declare an initial value
+for this state inside the constructor() method of the component.*/
 const { Component } = React;
 const { render } = ReactDOM;
 
@@ -12,7 +14,7 @@ class App extends Component{
     };
   }
   render(){
-    const { numbers } = this.state;
+    const { numbers } = this.state; // destructuring numbers
     const lis = numbers.map( (number, idx) => React.createElement('li', {key: idx }, number));
     return React.createElement('ul', null, lis);
   }

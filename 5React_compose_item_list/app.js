@@ -1,4 +1,6 @@
-// notes 5React_compose_item_list
+/* notes 5React_compose_item_list modifies code from video4
+-makes item item component sperate from list component
+We can build a React component called List, for each item in the List's state, we can render a child component called Item.*/
 const { Component } = React;
 const { render } = ReactDOM;
 
