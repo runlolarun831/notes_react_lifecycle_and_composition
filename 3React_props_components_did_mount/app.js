@@ -14,7 +14,7 @@ class App extends Component{
       numbers: [],
       waiting: true
     };
-  }
+  } //vvvvvvvv this is where you put axios vvvvvvvvvvvvvvvvvvvvv
   componentDidMount(){ //method that we can put it on React component
     setTimeout(() => {  //setTimeout  gives a 1/2 sec. delay (see nothing)
       this.setState({  //changes the state
